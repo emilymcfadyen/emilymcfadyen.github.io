@@ -1,0 +1,20 @@
+body {
+	margin-left: 3cm;
+	padding-top: 200px;
+	font-family: arial;
+	font-size: 20px;
+	color: white;
+	background-image: url("assets/stripes.png"), url("assets/background.jpg");
+	background-position: top, top;
+	background-repeat: repeat-x;	
+}
+
+hr {
+	border-color: rgb(224,110,110);
+	margin-top: 0cm;
+	margin-bottom: 1cm;
+	margin-left: 0cm;
+	margin-right: 30.5cm;
+}
+
+
