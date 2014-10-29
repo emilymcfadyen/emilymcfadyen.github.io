@@ -1,6 +1,4 @@
 body {
-	margin-left: 3cm;
-	padding-top: 200px;
 	font-family: arial;
 	font-size: 20px;
 	color: white;
@@ -9,12 +7,23 @@ body {
 	background-repeat: repeat-x;	
 }
 
+h1 {
+	padding-top: 200px;
+	padding-left: 100px;
+}
+
 hr {
 	border-color: rgb(224,110,110);
-	margin-top: 0cm;
-	margin-bottom: 1cm;
-	margin-left: 0cm;
-	margin-right: 30.5cm;
+	width: 40px;
+	margin-left: 100px;
+}
+
+p {
+	padding-left: 100px;
+}
+
+a {
+	padding-left: 100px;
 }
 
 
