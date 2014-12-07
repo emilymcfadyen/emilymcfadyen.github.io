@@ -1,0 +1,96 @@
+* {
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #76C9B4;
+}
+
+#logo {
+	padding: 10px;
+	margin-left: 15px;
+	float: left;
+}
+
+nav {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5em;
+}
+
+li {
+	display: inline;
+	display: block;
+	float: right;
+	padding: 16px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FCF8CD;
+}
+
+#globe {
+	width: 30%;
+	padding-left: 10%;
+	padding-top: 8%;
+	float: left;
+	margin-right: 3%;
+}
+
+#globe img {
+	width: 300px;
+	height: 250px;
+}
+
+#container {
+	width: 60%;
+	float: left;
+	padding: 10%;
+	text-align: center;
+	margin-left: 5%;
+}
+
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 3em;
+	padding: 10px;
+}
+
+p {
+	font-family: 'Cardo', serif;
+	font-size: 1.4em;
+	line-height: 150%;
+	margin-bottom: 2%;
+}
+
+button {
+	display: inline-block;
+	margin: 6%;
+	border-style: none;
+	height: 2.5em;
+	width: 8em;
+	font-size: 1.6em;
+	font-family: 'josefin sans', sans-serif;
+	color: #FCF8CD;
+	background-color: #F52C33;
+}
+
+button:hover {
+	background-color: #F5454B;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}

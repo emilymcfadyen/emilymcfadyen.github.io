@@ -1,0 +1,103 @@
+* {
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #76C9B4;
+}
+
+#logo {
+	padding: 10px;
+	margin-left: 15px;
+	float: left;
+}
+
+nav {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5em;
+}
+
+li {
+	display: inline;
+	display: block;
+	float: right;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FCF8CD;
+}
+
+#container {
+	padding-top: 2%;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+}
+
+.course {
+	float: left;
+	width: 30%;
+	padding: 5%;
+}
+
+/*h1 {
+	font-family: 'josefin sans', sans-serif;
+	font-size: 2em;
+	padding-bottom: 7%;
+	text-align: center;
+}*/
+
+#beginners {
+	width: 135%;
+	height: 130%;
+}
+
+#intermediate {
+	width: 135%;
+	height: 130%;
+}
+
+#advanced {
+	width: 135%;
+	height: 130%;
+}
+
+p {
+	font-family: 'cardo', serif;
+	font-size: 1.2em;
+	text-align: center;
+	width: 135%;
+	padding: 5%;
+}
+
+button {
+	display: inline-block;
+	margin: 6%;
+	border-style: none;
+	height: 2.5em;
+	width: 8em;
+	font-size: 1.6em;
+	font-family: 'josefin sans', sans-serif;
+	color: #FCF8CD;
+	background-color: #F52C33;
+	margin-left: 33%;
+}
+
+button:hover {
+	background-color: #F5454B;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
