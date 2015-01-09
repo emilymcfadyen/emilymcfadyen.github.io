@@ -1,28 +1,38 @@
-* {
+html {
 	box-sizing: border-box;
 }
 
-header {
-	background-color: #76C9B4;
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	font-size: 30px;
 }
 
 #logo {
-	padding: 10px;
-	margin-left: 15px;
+	margin: .5%;
+	margin-left: 1%;
+	width: 7em;
 	float: left;
 }
 
 nav {
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 1.5em;
+	background-color: #76C9B4;
+}
+
+ul {
+	width: 70%;
+	float: right;
+	margin-top: 1.75%;
 }
 
 li {
-	display: inline;
-	display: block;
+	display: inline-block;
 	float: right;
-	padding: 20px;
-	margin-top: 10px;
+	margin-right: 3%;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: .8em;
 }
 
 a {
@@ -34,62 +44,66 @@ a:hover {
 	color: #FCF8CD;
 }
 
-#container {
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5em;
+	margin-top: 3%;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1em;
+	margin-top: 5%;
+	text-align: center;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+#section {
 	padding-top: 2%;
 	margin-left: 0 auto;
 	margin-right: 0 auto;
 }
 
 .course {
-	float: left;
 	width: 30%;
-	padding: 5%;
+	float: left;
+	margin: 1.5%;
 }
 
-/*h1 {
-	font-family: 'josefin sans', sans-serif;
-	font-size: 2em;
-	padding-bottom: 7%;
-	text-align: center;
-}*/
-
-#beginners {
-	width: 135%;
-	height: 130%;
+.course img {
+	width: 70%;
+	margin-top: 3%;
+	margin-bottom: .5em;
+	margin-right: 15%;
+	margin-left: 15%;
 }
 
-#intermediate {
-	width: 135%;
-	height: 130%;
-}
-
-#advanced {
-	width: 135%;
-	height: 130%;
-}
-
-p {
+.course p {
+	width: 100%;
 	font-family: 'cardo', serif;
-	font-size: 1.2em;
+	font-size: .6em;
 	text-align: center;
-	width: 135%;
 	padding: 5%;
 }
 
-button {
-	display: inline-block;
-	margin: 6%;
+.course button {
+	width: 40%;
+	height: 3em;
+	margin-top: 2%;
+	margin-left: 30%;
+	margin: right: 30%;
 	border-style: none;
-	height: 2.5em;
-	width: 8em;
-	font-size: 1.6em;
+	font-size: .6em;
 	font-family: 'josefin sans', sans-serif;
 	color: #FCF8CD;
 	background-color: #F52C33;
-	margin-left: 33%;
 }
 
-button:hover {
+.course button:hover {
 	background-color: #F5454B;
 }
 
@@ -100,4 +114,40 @@ button:hover {
 	clear: both;
 	height: 0;
 	font-size: 0;
+}
+
+footer {
+	text-align: center;
+	background-color: #76C9B4;
+	font-family: 'josefin sans', sans-serif;
+	font-size: .7em;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	padding: .8%;
+}
+
+@media screen and (max-width: 400px) {
+	h1 {
+		font-size: 1em;
+	}
+
+	#courses {
+		width: 100%;
+	}
+
+	.course img {
+		display: none;
+	}
+
+	.course {
+		width: 90%;
+	}
+
+	.course button {
+		width: 40%;
+		height: 1.5em;
+		margin-left: 25%;
+	}
 }
