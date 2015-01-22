@@ -118,19 +118,36 @@ h2 {
 }
 
 footer {
-	text-align: center;
+	padding: 1%;
 	background-color: #76C9B4;
-	font-family: 'josefin sans', sans-serif;
-	font-size: .7em;
 	position: fixed;
 	width: 100%;
 	bottom: 0;
 	left: 0;
-	padding: .8%;
+}
+
+#copyright {
+	float: left;
+	margin-left: 5%;
+}
+
+#copyright p {
+	font-family: 'josefin sans', sans-serif;
+	font-size: .6em;
+}
+
+.social-logo {
+	width: 3%;
+	margin-right: 2%;
+	float: right;
 }
 
 @media screen and (max-width: 400px) {
 
+	#logo {
+		width: 50%;
+	}
+	
 	h1 {
 		font-size: 1.3em;
 		padding-bottom: 5%;
@@ -169,5 +186,18 @@ footer {
 		font-size: .6em;
 		padding: 2%;
 		border-top: 10%;
+	}
+
+	#copyright {
+		font-size: 1.5em;
+	}
+
+	.social-logo{
+		width: 15%;
+		padding-left: 2%;
+	}
+
+	#social {
+		width: 100%;
 	}
 }
