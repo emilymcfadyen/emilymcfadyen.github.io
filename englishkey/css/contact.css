@@ -1,28 +1,38 @@
-* {
+html {
 	box-sizing: border-box;
 }
 
-header {
-	background-color: #76C9B4;
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	font-size: 30px;
 }
 
 #logo {
-	padding: 10px;
-	margin-left: 15px;
+	margin: 1%;
+	width: 18%;
 	float: left;
 }
 
 nav {
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 1.5em;
+	background-color: #76C9B4;
+}
+
+ul {
+	width: 70%;
+	float: right;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
 }
 
 li {
-	display: inline;
-	display: block;
+	display: inline-block;
 	float: right;
-	padding: 20px;
-	margin-top: 10px;
+	margin-right: 3%;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: .8em;
 }
 
 a {
@@ -34,6 +44,16 @@ a:hover {
 	color: #FCF8CD;
 }
 
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -41,4 +61,30 @@ a:hover {
 	clear: both;
 	height: 0;
 	font-size: 0;
+}
+
+footer {
+	text-align: center;
+	background-color: #76C9B4;
+	font-family: 'josefin sans', sans-serif;
+	font-size: .7em;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	padding: .8%;
+}
+
+@media screen and (max-width: 400px) {
+
+	h1 {
+		font-size: 1.3em;
+		padding-bottom: 5%;
+	}
+
+	footer {
+		font-size: .6em;
+		padding: 2%;
+		border-top: 10%;
+	}
 }
